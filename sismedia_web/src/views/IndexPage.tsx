@@ -1,4 +1,6 @@
+import ContactoComponent from "../components/ContactoComponent";
 import PlanesSuscripcionComponent from "../components/PlanesSuscripcionComponent";
+import TestimonioComponent from "../components/TestimonioComponent";
 import Caracteristicas from "./Caracteristicas";
 
 export default function IndexPage() {
@@ -18,6 +20,11 @@ export default function IndexPage() {
             </div>
             <Caracteristicas />
             <PlanesSuscripcionComponent/>
+            <div className="mx-auto grid grid-cols-2 mt-20">
+                <TestimonioComponent/>
+                <ContactoComponent />
+            </div>
+            
         
         </>
     );
