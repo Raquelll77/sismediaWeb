@@ -7,7 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+node_module
 dist
 dist-ssr
 *.local
@@ -22,3 +22,16 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Ignorar archivos temporales y configuraciones de IDE
+.vscode/
+.idea/
+*.log
+*.swp
+*~
+
+# Ignorar archivos del sistema
+**/AppData/
+**/Documents/
+**/Downloads/
+
